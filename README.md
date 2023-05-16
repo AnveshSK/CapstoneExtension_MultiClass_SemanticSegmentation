@@ -1,6 +1,8 @@
 # CapstoneExtension_MultiClass_SemanticSegmentation
 
-Recommended - Check out my  repository and its README.md
+Recommended - Check out my SemanticSegmentation_AbdominalCT repository and its README.md
+
+
 ABOUT MY CAPSTONE :
 Structures in the abdominal region have complex non-geometric overlapping boundaries making it difficult to distinguish and segment them accurately. Low contrast and being surrounded by multiple layers of tissue and organs add to the segmentation difficulty. In this region, we focused on specific abdominal wall muscles which include the left flank, left rectus, right flank, and right rectus.
 The abdominal muscles play a crucial role in medical imaging as they provide valuable information for diagnosing abnormalities such as hernias, tumors, and neuro-muscular diseases. Accurate segmentation of these muscles can provide important quantitative information about their size, shape, and location, which can help clinicians make more informed decisions and improve patient outcomes.
@@ -28,5 +30,5 @@ In our capstone, I clearly established an improvement in performance is more lik
 So following this conclusion, I decided to use data augmentation which allows me to artificially expand data sets to solve the data scarcity issue by leveraging the limited, labeled dataset I already have.
 Here Augmentation supports both cases : Small dataset and lack of control of input data.
 
-4. Combination of extension 1 and 2
+Combination of extension 1 and 2
 I combined my multi-class approach with the backbone approach to try and see if I get any improved results. I had to make similar changes i.e. introduce softmax and number of classes. i did this as some backbone U-Net structures provided better results than the base model.
